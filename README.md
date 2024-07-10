@@ -1,5 +1,3 @@
-# Budget-Smith
-
 # Budget Smith
 
 ## Table of Contents
@@ -10,7 +8,6 @@
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
