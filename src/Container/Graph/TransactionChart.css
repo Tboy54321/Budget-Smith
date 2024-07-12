@@ -1,0 +1,46 @@
+.transaction-chart-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+  }
+  
+  .transaction-chart-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-chart-controls label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .transaction-chart-controls select {
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .custom-tooltip {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .custom-tooltip .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .custom-tooltip .intro,
+  .custom-tooltip .desc {
+    margin: 0;
+  }
+  
