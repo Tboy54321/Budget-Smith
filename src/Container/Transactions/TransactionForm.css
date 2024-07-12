@@ -1,0 +1,54 @@
+.expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow:  3px 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: rgb(240, 234, 234);
+}
+
+.expense-form input:focus,
+.expense-form select:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #e6f2ff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Animation for input and select focus */
+@keyframes inputFocus {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.75);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+}
+
+.expense-form input:focus,
+.expense-form select:focus {
+    animation: inputFocus 0.5s ease-in-out forwards;
+}
+
+.expense-form button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.expense-form button:hover {
+    background-color: #ff4b4b;
+}
